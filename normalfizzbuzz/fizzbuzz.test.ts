@@ -56,4 +56,9 @@ describe('Fizz Buzz', () => {
       expect(result).toEqual("11")
     })
 
+    it('should return 12 for number = 12', () => {
+      const result = fizzbuzz(12)
+      expect(result).toEqual("Fizz")
+    })
+
 })
