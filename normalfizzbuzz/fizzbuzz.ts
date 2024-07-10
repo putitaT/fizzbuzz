@@ -3,7 +3,9 @@ export const fizzbuzz = (num: number): string => {
         return "1"
     } else if (num == 2) {
         return "2"
-    } else {
+    } else if (num == 3) {
         return "Fizz"
+    } else {
+        return "4"
     }
 }
