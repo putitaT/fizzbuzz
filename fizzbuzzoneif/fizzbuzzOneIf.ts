@@ -1,0 +1,1 @@
+export const fizzbuzzOneIf = (num: number) => "1"
