@@ -1,1 +1,1 @@
-export const fizzbuzz = (num: number): string => ""
+export const fizzbuzz = (num: number): string => "1"
