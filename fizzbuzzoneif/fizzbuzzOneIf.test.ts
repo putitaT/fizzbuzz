@@ -65,4 +65,9 @@ describe('Fizz Buzz with One If', () => {
         const result = fizzbuzzOneIf(13)
         expect(result).toEqual("13")
     })
+
+    it('should return 14 for number = 14', () => {
+        const result = fizzbuzzOneIf(14)
+        expect(result).toEqual("14")
+    })
 })
