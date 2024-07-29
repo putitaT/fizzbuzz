@@ -1,7 +1,7 @@
 export const fizzbuzzOneIf = (num: number) => {
-    if (num === 1) {
-        return '1'
+    if (num % 3 !== 0) {
+        return num.toString()
     } else {
-        return '2'
+        return 'Fizz'
     }
 }
