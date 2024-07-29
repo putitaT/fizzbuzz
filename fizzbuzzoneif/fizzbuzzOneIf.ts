@@ -1,7 +1,8 @@
 export const fizzbuzzOneIf = (num: number) => {
-    if (num % 3 !== 0) {
+    if (num % 3 !== 0 && num % 5 !== 0) {
         return num.toString()
     } else {
-        return 'Fizz'
+        const text = ['Fizz', 'Buzz', 'Buzz']
+        return text[num%3]
     }
 }
